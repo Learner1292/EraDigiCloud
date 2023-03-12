@@ -1,0 +1,48 @@
+Linux Commands
+sudo su : Switch to root user with sudo access
+yum install -y mysql : to download and install mysql on machine
+mysql --version : to check the version of mysql
+mysql -h <database-endpoint> -P 3306 -u <user-name> -p  : to connect to RDS database from EC2 instance
+Show Databases; : to check the databases
+use <database-name>; : to use a database
+show tables; : to get the list of tables
+
+Command to Create Table
+--------------------------------------
+CREATE TABLE Employee (
+    Id int,
+    Name varchar(255),
+    Location varchar(255)
+);
+
+Command to insert data
+--------------------------------------------
+INSERT INTO Employee
+  ( Id, Name, Location )
+VALUES
+  (1,'Roy', 'Copenhagen Office'), 
+  (2,'James', 'Gothenburg Office'), 
+  (3,'Henrick', 'Aarhus Office'),
+  (4,'Johnny', 'Aalborg Office');
+
+
+
+------------------------------------------------- Important Links -----------------------------------------------------------------
+List of AWS Certifications
+https://aws.amazon.com/certification/?trk=662aeb66-1ee5-4842-b706-60c6a1b4f187&sc_channel=ps&s_kwcid=AL!4422!3!616960532762!e!!g!!aws%20certifications&ef_id=Cj0KCQiA6rCgBhDVARIsAK1kGPKcjLYMXQB3-1AVeP5LMVdZ61hZVBagxstg1KvfMWwI8dFlDG2ZwkAaAtvyEALw_wcB:G:s&s_kwcid=AL!4422!3!616960532762!e!!g!!aws%20certifications
+
+Cloud Practitioner Exam Guide
+https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=tile&tile=getstarted
+
+AWS Faqs
+https://aws.amazon.com/faqs/
+
+AWS Ramp Up Guides
+https://aws.amazon.com/training/ramp-up-guides/
+
+AWS Workshops
+https://workshops.aws/
+
+AWS Community
+https://aws.amazon.com/events/asean/community-and-events/
+
